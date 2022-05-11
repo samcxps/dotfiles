@@ -1,0 +1,12 @@
+require('impatient') -- This needs to be first
+require('packer_commands')
+-- require('globals')
+require('config')
+require('settings')
+require('themes')
+require('keymap')
+-- require('autocmds')
+-- require('functions')
+-- require('lsp.config')
+-- require('lsp.setup')
+-- require('lsp.functions')
