@@ -1,10 +1,12 @@
 # The Bruhfiles
 
+You are the ![visi](https://visitor-badge.glitch.me/badge?page_id=page.id) bruh
+
 ## How to use this stuff
 
 - Clone repo
 - Create symlinks as needed (need ---/dotfiles/.config --> ~/.config)
-- Run brew bundle on Brewfile
+- Run `brew bundle` on Brewfile
 - See individual sections for specific installation instructions
 
 ## Shell Setup
@@ -20,16 +22,19 @@
 
 ### Install Instructions
 
+- Fish _should_ have been installed via `brew bundle` but double check
 - Change fish to default shell
-- Install fisher
-- Install TideV5 with fisher
+- Install [fisher](https://github.com/jorgebucaran/fisher)
+- Install [Tide@v5](https://github.com/IlanCosman/tide)
+- Install [z](https://github.com/jethrokuan/z)
 
-## VIM
+## (NEO)VIM
 
-Based on [EcoVim](https://github.com/ecosse3/nvim) but slimmed down because that one makes my brain hurt + uses stuff I do not want
+Inspired by [EcoVim](https://github.com/ecosse3/nvim) but very slimmed down
 
 - NeoVim (nightly version)
 - Packer (plugin manager)
+- Lots of cool UI and QOL improvements
 
 ### Install Instructions
 
