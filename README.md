@@ -1,7 +1,5 @@
 # The Bruhfiles
 
-You are the ![visi](https://visitor-badge.glitch.me/badge?page_id=page.id) bruh
-
 ## How to use this stuff
 
 - Clone repo
@@ -11,14 +9,13 @@ You are the ![visi](https://visitor-badge.glitch.me/badge?page_id=page.id) bruh
 
 ## Shell Setup
 
-- Kitty (terminal emulator)
-- Fish (shell)
-- Fisher (fish plugin manager)
-- TideV5 (custom fish prompt)
-- Z (smart directory jumping)
-- Exa (fun ls alternative with icons)
-- Hack nerd font (for exa icons)
-- Fira nerd font for text
+- [Kitty](https://sw.kovidgoyal.net/kitty/) - Terminal emulator
+- [Fish](https://fishshell.com/) - Shell
+- [Fisher](https://github.com/jorgebucaran/fisher) - Fish plugin manager
+- [Tide](https://github.com/IlanCosman/tide) - Custom fish prompt
+- [Z](https://github.com/jethrokuan/z) - Smart directory jumping
+- [Exa](https://github.com/ogham/exa) - Better `ls`
+- [Nerd Fonts](https://github.com/ryanoasis/nerd-fonts) - Icons and terminal font
 
 ### Install Instructions
 
@@ -27,19 +24,21 @@ You are the ![visi](https://visitor-badge.glitch.me/badge?page_id=page.id) bruh
 - Install [fisher](https://github.com/jorgebucaran/fisher)
 - Install [Tide@v5](https://github.com/IlanCosman/tide)
 - Install [z](https://github.com/jethrokuan/z)
+- Use [kitty](https://sw.kovidgoyal.net/kitty/) instead of default terminal app
+- Done
 
 ## (NEO)VIM
 
 Inspired by [EcoVim](https://github.com/ecosse3/nvim) but very slimmed down
 
-- NeoVim (nightly version)
-- Packer (plugin manager)
-- Lots of cool UI and QOL improvements
+- [NeoVim](https://neovim.io/) - Better VIM
+- [Packer](https://github.com/wbthomason/packer.nvim) - Plugin manager
+- See [plugins.lua](https://github.com/samcxps/dotfiles/blob/main/.config/nvim/lua/plugins.lua) file for breakdown of plugins
 
 ### Install Instructions
 
-- Fresh install of neovim (should have been installed via Brewfile)
-- If you already had Neovim setup, make sure to clear cache and clean any old plugins
+- NeoVim _should_ have been installed via `brew bundle` but double check
+- If you already had a NeoVim setup, make sure to clean cache and old plugins
 
 ```
 rm -rf ~/.local/share/nvim/
