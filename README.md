@@ -3,7 +3,7 @@
 ## How to use this stuff
 
 - Clone repo
-- Create symlinks (~/.config/ -> ~/dotfiles/.config/)
+- Create symlinks as needed (need ---/dotfiles/.config --> ~/.config)
 - Run brew bundle on Brewfile
 - See individual sections for specific installation instructions
 
