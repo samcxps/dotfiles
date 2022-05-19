@@ -67,6 +67,18 @@ return require('packer').startup({
     use { 'tpope/vim-speeddating' }     -- Better increment and decrement
     use { 'AndrewRadev/switch.vim' }    -- Used with speeddating above ^^
 
+    -- LSP stuff
+    use {'neovim/nvim-lspconfig',  -- Collection of configurations for built-in LSP client
+      config = "require('lsp.setup')" ,
+      requires = { 
+        { 'williamboman/nvim-lsp-installer' },
+        { 'hrsh7th/cmp-nvim-lsp' },
+        { 'hrsh7th/nvim-cmp' },
+        { 'saadparwaiz1/cmp_luasnip' },
+        { 'L3MON4D3/LuaSnip' }
+      } 
+    } 
+
     if packer_bootstrap then
       require('packer').sync()
     end

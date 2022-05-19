@@ -20,6 +20,7 @@ brew "neovim"
 brew "fzf"
 brew "gnu-sed"
 brew "ripgrep"
+brew "wget"
 
 # Shell stuff
 brew "fish"
