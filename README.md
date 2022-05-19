@@ -47,6 +47,6 @@ rm -rf ~/.local/share/nvim/
 rm -rf ~/.cache/nvim/
 ```
 
-- Install [Packer](https://github.com/wbthomason/packer.nvim) 
+- Install [Packer](https://github.com/wbthomason/packer.nvim#quickstart) 
 - Make sure symlinks are correct
 - Execute `./run.sh` (might need to `chmod +x run.sh`)
